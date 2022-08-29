@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/omskkiosk/static/css/main.e6c13ad2.css",
-    "main.js": "/omskkiosk/static/js/main.9489ec89.js",
+    "main.js": "/omskkiosk/static/js/main.c1b54510.js",
     "static/js/787.e13e3f9f.chunk.js": "/omskkiosk/static/js/787.e13e3f9f.chunk.js",
     "static/media/img.png": "/omskkiosk/static/media/img.408f016d141479eaef64.png",
     "index.html": "/omskkiosk/index.html",
     "main.e6c13ad2.css.map": "/omskkiosk/static/css/main.e6c13ad2.css.map",
-    "main.9489ec89.js.map": "/omskkiosk/static/js/main.9489ec89.js.map",
+    "main.c1b54510.js.map": "/omskkiosk/static/js/main.c1b54510.js.map",
     "787.e13e3f9f.chunk.js.map": "/omskkiosk/static/js/787.e13e3f9f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.9489ec89.js"
+    "static/js/main.c1b54510.js"
   ]
 }
