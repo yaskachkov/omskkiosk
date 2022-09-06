@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd" >
+    <places>
+
+        <place>
+            <id>1</id>
+            <caption>Пушка на стрелке Оми и Иртыша</caption>
+            <description>Описание объекта</description>
+            <pictures>
+                <url>https://admomsk.ru/image/image_gallery?img_id=356094</url>
+            </pictures>
+            <historicalName>Пушка</historicalName>
+            <year>1999</year>
+            <facts>
+                <fact>Основан в 1996 году</fact>
+            </facts>
+            <location>
+                <lat>54.981128</lat>
+                <lon>73.370292</lon>
+            </location>
+        </place>
+
+        <place>
+            <id>2</id>
+            <caption>Памятник борцам революции</caption>
+            <pictures>
+                <url>https://admomsk.ru/image/image_gallery?img_id=356136</url>
+                <url>https://admomsk.ru/image/image_gallery?img_id=356094</url>
+            </pictures>
+            <historicalName></historicalName>
+            <year>Основан в 1923 году</year>
+            <facts>
+                <fact>Скульптор Николай Виноградов</fact>
+                <fact>Скульптор Николай Виноградов</fact>
+            </facts>
+            <location>
+                <lat>54.980962</lat>
+                <lon>73.377542</lon>
+            </location>
+        </place>
+    </places>
+</config>

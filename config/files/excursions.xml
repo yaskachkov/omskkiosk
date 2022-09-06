@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd">
+    <excursions>
+        <excursion>
+            <id>1</id>
+            <caption>Пешеходная экскурсия по центру Омска</caption>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=356098</mainPictureUrl>
+            <description>Нашу виртуальную экскурсию мы начнём у места, где в 1716 году высадился казачий отряд под
+                командованием подполковника Ивана Бухгольца. Здесь, на левом берегу Оми, была построена первая Омская
+                крепость. Как нетрудно догадаться, название ей было дано по имени реки: Омь на языке сибирских татар —
+                «тихая, тишайшая»
+            </description>
+            <route>
+                <point>
+                    <lat>54.97439148054726</lat>
+                    <lon>73.37668241606863</lon>
+                </point>
+                <point>
+                    <lat>54.9745210798639</lat>
+                    <lon>73.3784794961087</lon>
+                </point>
+                <point>
+                    <lat>54.98057475063292</lat>
+                    <lon>73.37741197692068</lon>
+                </point>
+                <point>
+                    <lat>54.98067347772752</lat>
+                    <lon>73.37963284598499</lon>
+                </point>
+                <point>
+                    <lat>54.9807413524636</lat>
+                    <lon>73.38030876265677</lon>
+                </point>
+                <point>
+                    <lat>54.98153115910055</lat>
+                    <lon>73.38011564360767</lon>
+                </point>
+                <point>
+                    <lat>54.9816113729641</lat>
+                    <lon>73.38029803382072</lon>
+                </point>
+                <point>
+                    <lat>54.98162371354422</lat>
+                    <lon>73.3806091700664</lon>
+                </point>
+                <point>
+                    <lat>54.98164839469299</lat>
+                    <lon>73.3807808314434</lon>
+                </point>
+                <point>
+                    <lat>54.98183967307928</lat>
+                    <lon>73.38083447562366</lon>
+                </point>
+                <point>
+                    <lat>54.98185201358889</lat>
+                    <lon>73.3813601885906</lon>
+                </point>
+                <point>
+                    <lat>54.98231477994907</lat>
+                    <lon>73.38129581557423</lon>
+                </point>
+            </route>
+            <places>
+                <placeId>1</placeId>
+                <placeId>2</placeId>
+            </places>
+            <mapCenter>
+                <lat>54.98231477994907</lat>
+                <lon>73.38129581557423</lon>
+            </mapCenter>
+            <zoom>14</zoom>
+        </excursion>
+        <excursion>
+            <id>2</id>
+            <caption>Пешеходная экскурсия по центру Омска</caption>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=356136</mainPictureUrl>
+            <description>За зданием концертного зала в Театральном сквере в 2010 году установлена скульптура в честь
+                русских святых Петра и Февронии Муромских. Это место паломничества влюблённых и молодожёнов
+            </description>
+            <route>
+                <point>
+                    <lat>54.98185201358889</lat>
+                    <lon>73.3813601885906</lon>
+                </point>
+                <point>
+                    <lat>54.98231477994907</lat>
+                    <lon>73.38129581557423</lon>
+                </point>
+            </route>
+            <places>
+                <placeId>1</placeId>
+                <placeId>2</placeId>
+            </places>
+            <mapCenter>
+                <lat>54.98231477994907</lat>
+                <lon>73.38129581557423</lon>
+            </mapCenter>
+            <zoom>14</zoom>
+        </excursion>
+    </excursions>
+</config>

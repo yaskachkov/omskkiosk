@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd">
+    <topics>
+        <topic>
+            <id>1</id>
+            <caption>Памятники</caption>
+            <description>Все памятники Омска</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=356094</mainPictureUrl>
+            <places>
+                <placeId>1</placeId>
+                <placeId>2</placeId>
+            </places>
+        </topic>
+        <topic>
+            <id>2</id>
+            <caption>Места для фотосессий</caption>
+            <description>Красивые места нашего города</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=356094</mainPictureUrl>
+            <places>
+                <placeId>1</placeId>
+                <placeId>2</placeId>
+            </places>
+        </topic>
+    </topics>
+</config>

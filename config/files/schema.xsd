@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:simpleType name="Url">
+        <xs:restriction base="xs:anyURI">
+            <xs:pattern value="https?://.+"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="Location">
+        <xs:all>
+            <xs:element name="lat" type="xs:double"/>
+            <xs:element name="lon" type="xs:double"/>
+        </xs:all>
+    </xs:complexType>
+
+    <xs:complexType name="LocationArray">
+        <xs:sequence>
+            <xs:element name="point" type="Location" minOccurs="2" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="FactArray">
+        <xs:sequence>
+            <xs:element name="fact" minOccurs="1" maxOccurs="unbounded" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="PlaceArray">
+        <xs:sequence>
+            <xs:element name="placeId" type="xs:unsignedInt" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="UrlArray">
+        <xs:sequence>
+            <xs:element name="url" minOccurs="1" maxOccurs="unbounded" type="Url"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Place">
+        <xs:all>
+            <xs:element name="id" type="xs:nonNegativeInteger" minOccurs="1"/>
+            <xs:element name="caption" type="xs:string" minOccurs="1"/>
+            <xs:element name="pictures" type="UrlArray" minOccurs="1"/>
+            <xs:element name="historicalName" type="xs:string"/>
+            <xs:element name="year" type="xs:string"/>
+            <xs:element name="facts" type="FactArray" minOccurs="1"/>
+            <xs:element name="location" type="Location" maxOccurs="1"/>
+            <xs:element name="description" type="xs:string"/>
+        </xs:all>
+    </xs:complexType>
+
+    <xs:complexType name="Places">
+        <xs:sequence>
+            <xs:element name="place" minOccurs="1" maxOccurs="unbounded" type="Place"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Excursion">
+        <xs:all>
+            <xs:element name="id" type="xs:unsignedInt" minOccurs="1"/>
+            <xs:element name="caption" type="xs:string" minOccurs="1"/>
+            <xs:element name="mainPictureUrl" type="Url" maxOccurs="1"/>
+            <xs:element name="description" type="xs:string"/>
+            <xs:element name="route" type="LocationArray"/>
+            <xs:element name="places" type="PlaceArray"/>
+            <xs:element name="mapCenter" type="Location" minOccurs="1"/>
+            <xs:element name="zoom" type="xs:unsignedInt" minOccurs="1"/>
+        </xs:all>
+    </xs:complexType>
+
+    <xs:complexType name="Excursions">
+        <xs:sequence minOccurs="1" maxOccurs="unbounded">
+            <xs:element name="excursion" type="Excursion" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Topic">
+        <xs:all>
+            <xs:element name="id" type="xs:unsignedInt" minOccurs="1"/>
+            <xs:element name="caption" type="xs:string" minOccurs="1"/>
+            <xs:element name="description" type="xs:string"/>
+            <xs:element name="mainPictureUrl" type="Url" maxOccurs="1"/>
+            <xs:element name="places" type="PlaceArray"/>
+        </xs:all>
+    </xs:complexType>
+
+    <xs:complexType name="Topics">
+        <xs:sequence minOccurs="1" maxOccurs="unbounded">
+            <xs:element name="topic" type="Topic" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Config">
+        <xs:all>
+            <xs:element name="places" type="Places" minOccurs="0" maxOccurs="1">
+                <xs:unique name="uniquePlaces">
+                    <xs:selector xpath="place/id"/>
+                    <xs:field xpath="."/>
+                </xs:unique>
+            </xs:element>
+            <xs:element name="excursions" type="Excursions" minOccurs="0" maxOccurs="1">
+                <xs:unique name="uniqueExcursions">
+                    <xs:selector xpath="excursion/id"/>
+                    <xs:field xpath="."/>
+                </xs:unique>
+            </xs:element>
+            <xs:element name="topics" type="Topics" minOccurs="0" maxOccurs="1">
+                <xs:unique name="uniqueTopics">
+                    <xs:selector xpath="topic/id"/>
+                    <xs:field xpath="."/>
+                </xs:unique>
+            </xs:element>
+        </xs:all>
+    </xs:complexType>
+    <xs:element name="config" type="Config"/>
+</xs:schema>
