@@ -63,6 +63,9 @@
             <places>
                 <placeId>1</placeId>
                 <placeId>2</placeId>
+                <placeId>3</placeId>
+                <placeId>4</placeId>
+                <placeId>5</placeId>                
             </places>
             <mapCenter>
                 <lat>54.98231477994907</lat>
@@ -88,8 +91,8 @@
                 </point>
             </route>
             <places>
-                <placeId>1</placeId>
-                <placeId>2</placeId>
+                <placeId>3</placeId>
+                <placeId>5</placeId>
             </places>
             <mapCenter>
                 <lat>54.98231477994907</lat>
