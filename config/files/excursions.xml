@@ -3,12 +3,12 @@
     <excursions>
         <excursion>
             <id>1</id>
-            <caption>Пешеходная экскурсия по центру Омска</caption>
-            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=356098</mainPictureUrl>
+            <caption>Обзорная экскурсия</caption>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=356200</mainPictureUrl>
             <description>Нашу виртуальную экскурсию мы начнём у места, где в 1716 году высадился казачий отряд под
                 командованием подполковника Ивана Бухгольца. Здесь, на левом берегу Оми, была построена первая Омская
                 крепость. Как нетрудно догадаться, название ей было дано по имени реки: Омь на языке сибирских татар —
-                «тихая, тишайшая»
+                «тихая, тишайшая».
             </description>
             <route>
                 <point>
@@ -72,10 +72,10 @@
         </excursion>
         <excursion>
             <id>2</id>
-            <caption>Пешеходная экскурсия по центру Омска</caption>
-            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=356136</mainPictureUrl>
+            <caption>Омск для влюбленных</caption>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=356321</mainPictureUrl>
             <description>За зданием концертного зала в Театральном сквере в 2010 году установлена скульптура в честь
-                русских святых Петра и Февронии Муромских. Это место паломничества влюблённых и молодожёнов
+                русских святых Петра и Февронии Муромских. Это место паломничества влюблённых и молодожёнов.
             </description>
             <route>
                 <point>
