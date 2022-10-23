@@ -3,22 +3,25 @@
     <topics>
         <topic>
             <id>1</id>
-            <caption>Памятники</caption>
-            <description>Все памятники Омска</description>
-            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=356094</mainPictureUrl>
+            <caption>Омская крепость</caption>
+            <description>Все объекты Омской крепости: ворота, здания, памятники.</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=356299</mainPictureUrl>
             <places>
                 <placeId>1</placeId>
                 <placeId>2</placeId>
+                <placeId>3</placeId>
+                <placeId>4</placeId>
+                <placeId>5</placeId>
             </places>
         </topic>
         <topic>
             <id>2</id>
             <caption>Места для фотосессий</caption>
-            <description>Красивые места нашего города</description>
-            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=356094</mainPictureUrl>
+            <description>Самые красивые места нашего города!</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=356200</mainPictureUrl>
             <places>
-                <placeId>1</placeId>
                 <placeId>2</placeId>
+                <placeId>4</placeId>
             </places>
         </topic>
     </topics>
