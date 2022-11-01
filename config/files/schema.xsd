@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
+    <xs:simpleType name="Identifier">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Za-z0-9-_]{1,32}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
     <xs:simpleType name="Url">
         <xs:restriction base="xs:anyURI">
             <xs:pattern value="https?://.+"/>
@@ -28,7 +34,7 @@
 
     <xs:complexType name="PlaceArray">
         <xs:sequence>
-            <xs:element name="placeId" type="xs:unsignedInt" maxOccurs="unbounded"/>
+            <xs:element name="placeId" type="Identifier" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 
@@ -40,13 +46,13 @@
 
     <xs:complexType name="Place">
         <xs:all>
-            <xs:element name="id" type="xs:nonNegativeInteger" minOccurs="1"/>
+            <xs:element name="id" type="Identifier" minOccurs="1"/>
             <xs:element name="caption" type="xs:string" minOccurs="1"/>
             <xs:element name="pictures" type="UrlArray" minOccurs="1"/>
-            <xs:element name="historicalName" type="xs:string"/>
             <xs:element name="year" type="xs:string"/>
             <xs:element name="facts" type="FactArray" minOccurs="1"/>
             <xs:element name="location" type="Location" maxOccurs="1"/>
+            <xs:element name="address" type="xs:string" minOccurs="1"/>
             <xs:element name="description" type="xs:string"/>
         </xs:all>
     </xs:complexType>
@@ -59,7 +65,7 @@
 
     <xs:complexType name="Excursion">
         <xs:all>
-            <xs:element name="id" type="xs:unsignedInt" minOccurs="1"/>
+            <xs:element name="id" type="Identifier" minOccurs="1"/>
             <xs:element name="caption" type="xs:string" minOccurs="1"/>
             <xs:element name="mainPictureUrl" type="Url" maxOccurs="1"/>
             <xs:element name="description" type="xs:string"/>
@@ -78,7 +84,7 @@
 
     <xs:complexType name="Topic">
         <xs:all>
-            <xs:element name="id" type="xs:unsignedInt" minOccurs="1"/>
+            <xs:element name="id" type="Identifier" minOccurs="1"/>
             <xs:element name="caption" type="xs:string" minOccurs="1"/>
             <xs:element name="description" type="xs:string"/>
             <xs:element name="mainPictureUrl" type="Url" maxOccurs="1"/>

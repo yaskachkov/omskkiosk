@@ -5,8 +5,8 @@
         <place>
             <id>1</id>
             <caption>Областной военкомат</caption>
-            <historicalName>Гауптвахта</historicalName>
-            <description></description>
+            <description>Гауптвахта</description>
+            <address></address>
             <year>1781–1785</year>
             <pictures>
                 <url>https://admomsk.ru/image/image_gallery?img_id=356148</url>
@@ -27,8 +27,8 @@
         <place>
             <id>2</id>
             <caption>Тобольские ворота</caption>
-            <historicalName></historicalName>
             <description></description>
+            <address></address>
             <year>1792</year>
             <pictures>
                 <url>https://admomsk.ru/image/image_gallery?img_id=356272</url>
@@ -48,9 +48,9 @@
         <place>
             <id>3</id>
             <caption>Памятник «Достоевскому»</caption>
-            <historicalName></historicalName>
             <description>Скульптор Сергей Голованцев</description>
             <year>2001</year>
+            <address></address>
             <pictures>
                 <url>https://admomsk.ru/image/image_gallery?img_id=356303</url>
                 <url>https://admomsk.ru/image/image_gallery?img_id=356337</url>
@@ -70,7 +70,7 @@
         <place>
             <id>4</id>
             <caption>Тарские ворота</caption>
-            <historicalName></historicalName>
+            <address></address>
             <description></description>
             <year>Построены в 1792, разрушены в 1959, восстановлены в 1991</year>
             <pictures>
@@ -89,9 +89,9 @@
         
         <place>
             <id>5</id>
+            <address></address>
             <caption>Литературный музей имени Ф.М. Достоевского</caption>
-            <historicalName>Дом комендантов Омской крепости</historicalName>
-            <description></description>
+            <description>Дом комендантов Омской крепости</description>
             <year>1799</year>
             <pictures>
                 <url>https://admomsk.ru/image/image_gallery?img_id=356303</url>
