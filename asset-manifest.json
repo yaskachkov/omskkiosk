@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/omskkiosk/static/css/main.e6c13ad2.css",
-    "main.js": "/omskkiosk/static/js/main.590610f4.js",
+    "main.js": "/omskkiosk/static/js/main.5bfe25b3.js",
     "static/js/787.e13e3f9f.chunk.js": "/omskkiosk/static/js/787.e13e3f9f.chunk.js",
     "index.html": "/omskkiosk/index.html",
     "main.e6c13ad2.css.map": "/omskkiosk/static/css/main.e6c13ad2.css.map",
-    "main.590610f4.js.map": "/omskkiosk/static/js/main.590610f4.js.map",
+    "main.5bfe25b3.js.map": "/omskkiosk/static/js/main.5bfe25b3.js.map",
     "787.e13e3f9f.chunk.js.map": "/omskkiosk/static/js/787.e13e3f9f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.590610f4.js"
+    "static/js/main.5bfe25b3.js"
   ]
 }
