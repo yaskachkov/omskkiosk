@@ -44,22 +44,57 @@
         </xs:sequence>
     </xs:complexType>
 
+    <xs:complexType name="Author">
+        <xs:sequence>
+            <xs:element name="name" minOccurs="1" maxOccurs="1" type="xs:string"/>
+            <xs:element name="alias" minOccurs="1" maxOccurs="unbounded" type="xs:string"/>
+            <xs:element name="url" minOccurs="0" maxOccurs="unbounded" type="Url"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Picture">
+        <xs:sequence>
+            <xs:element name="url" minOccurs="1" maxOccurs="unbounded" type="Url"/>
+            <xs:element name="author" minOccurs="0" maxOccurs="1" type="xs:string">
+                <xs:key name="authorKey">
+                    <xs:selector xpath=".//Author"/>
+                    <xs:field xpath="OrderNumber"/>
+                </xs:key>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="PictureArray">
+        <xs:sequence>
+            <xs:element name="picture" minOccurs="0" maxOccurs="unbounded" type="Picture"/>
+        </xs:sequence>
+    </xs:complexType>
+
     <xs:complexType name="Place">
         <xs:all>
             <xs:element name="id" type="Identifier" minOccurs="1"/>
             <xs:element name="caption" type="xs:string" minOccurs="1"/>
-            <xs:element name="pictures" type="UrlArray" minOccurs="1"/>
+            <xs:element name="pictures" type="PictureArray" minOccurs="1"/>
             <xs:element name="year" type="xs:string"/>
             <xs:element name="facts" type="FactArray" minOccurs="1"/>
             <xs:element name="location" type="Location" maxOccurs="1"/>
             <xs:element name="address" type="xs:string" minOccurs="1"/>
             <xs:element name="description" type="xs:string"/>
+            <xs:element name="externalLink" type="Url" minOccurs="1" nillable="true"/>
+            <xs:element name="vkLink" type="Url" minOccurs="1" nillable="true"/>
+            <xs:element name="telegramLink" type="Url" minOccurs="1" nillable="true"/>
         </xs:all>
     </xs:complexType>
 
     <xs:complexType name="Places">
         <xs:sequence>
             <xs:element name="place" minOccurs="1" maxOccurs="unbounded" type="Place"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Authors">
+        <xs:sequence>
+            <xs:element name="author" minOccurs="1" maxOccurs="unbounded" type="Author"/>
         </xs:sequence>
     </xs:complexType>
 
@@ -115,6 +150,12 @@
             <xs:element name="topics" type="Topics" minOccurs="0" maxOccurs="1">
                 <xs:unique name="uniqueTopics">
                     <xs:selector xpath="topic/id"/>
+                    <xs:field xpath="."/>
+                </xs:unique>
+            </xs:element>
+            <xs:element name="authors" type="Authors" minOccurs="0" maxOccurs="1">
+                <xs:unique name="uniqueAuthor">
+                    <xs:selector xpath="author/alias"/>
                     <xs:field xpath="."/>
                 </xs:unique>
             </xs:element>

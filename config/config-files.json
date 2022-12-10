@@ -1,5 +1,6 @@
 [
   "excursions.xml",
   "places.xml",
-  "topics.xml"
+  "topics.xml",
+  "authors.xml"
 ]

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd" >
+    <authors>
+        <author>
+            <name>Иванов Иван Иванович</name>
+                <alias>IvanovII</alias>
+        </author>
+        <author>
+            <name>Петров Петр Петрович</name>
+            <alias>PetrovPP</alias>
+            <url>https://ya.ru/</url>
+        </author>
+    </authors>
+</config>

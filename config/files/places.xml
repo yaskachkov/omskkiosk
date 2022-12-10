@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd" >
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd">
     <places>
 
         <place>
@@ -9,19 +9,36 @@
             <address></address>
             <year>1781–1785</year>
             <pictures>
-                <url>https://admomsk.ru/image/image_gallery?img_id=356148</url>
-                <url>https://admomsk.ru/image/image_gallery?img_id=356144</url>
-                <url>https://admomsk.ru/image/image_gallery?img_id=356184</url>
+                <picture>
+                    <url>https://admomsk.ru/image/image_gallery?img_id=356148</url>
+                    <author>PetrovPP</author>
+                </picture>
+                <picture>
+                    <url>https://admomsk.ru/image/image_gallery?img_id=356144</url>
+                    <author>PetrovPP</author>
+                </picture>
+                <picture>
+                    <url>https://admomsk.ru/image/image_gallery?img_id=356184</url>
+                    <author>PetrovPP</author>
+                </picture>
             </pictures>
             <facts>
                 <fact>Старейшее из сохранившихся каменных зданий Омска. Построено в стиле барокко.</fact>
-                <fact>Здесь располагалось комендантское правление, крепостной караул и отбывали дисциплинарное наказание омские солдаты.</fact>
-                <fact>В помещениях гауптвахты находилось первое омское учебное заведение — школа для детей служащих Омского гарнизона. Затем тут же была образована школа толмачей, то есть переводчиков с восточных языков.</fact>
+                <fact>Здесь располагалось комендантское правление, крепостной караул и отбывали дисциплинарное наказание
+                    омские солдаты.
+                </fact>
+                <fact>В помещениях гауптвахты находилось первое омское учебное заведение — школа для детей служащих
+                    Омского гарнизона. Затем тут же была образована школа толмачей, то есть переводчиков с восточных
+                    языков.
+                </fact>
             </facts>
             <location>
                 <lat>54.981128</lat>
                 <lon>73.370292</lon>
             </location>
+            <telegramLink>https://ya.ru</telegramLink>
+            <vkLink>https://ya.ru</vkLink>
+            <externalLink>https://ya.ru</externalLink>
         </place>
 
         <place>
@@ -31,20 +48,35 @@
             <address></address>
             <year>1792</year>
             <pictures>
-                <url>https://admomsk.ru/image/image_gallery?img_id=356272</url>
-                <url>https://admomsk.ru/image/image_gallery?img_id=356287</url>
+                <picture>
+                    <url>https://admomsk.ru/image/image_gallery?img_id=356272</url>
+                    <author>PetrovPP</author>
+                </picture>
+                <picture>
+                    <url>https://admomsk.ru/image/image_gallery?img_id=356287</url>
+                    <author>PetrovPP</author>
+                </picture>
             </pictures>
             <facts>
-                <fact>Единственные крепостные ворота, сохранившиеся со времени постройки. Памятник градостроительства федерального значения.</fact>
-                <fact>У выхода из воротной арки также сохранились подлинные кованые навесные петли, на которых и держались деревянные створки ворот.</fact>
-                <fact>Через них арестантов Омского острога водили на работы — например, в алебастровый сарай, где трудились и Фёдор Достоевский, и персонаж его романа Родион Раскольников.</fact>
+                <fact>Единственные крепостные ворота, сохранившиеся со времени постройки. Памятник градостроительства
+                    федерального значения.
+                </fact>
+                <fact>У выхода из воротной арки также сохранились подлинные кованые навесные петли, на которых и
+                    держались деревянные створки ворот.
+                </fact>
+                <fact>Через них арестантов Омского острога водили на работы — например, в алебастровый сарай, где
+                    трудились и Фёдор Достоевский, и персонаж его романа Родион Раскольников.
+                </fact>
             </facts>
             <location>
                 <lat>54.980962</lat>
                 <lon>73.377542</lon>
             </location>
+            <telegramLink>https://ya.ru</telegramLink>
+            <vkLink>https://ya.ru</vkLink>
+            <externalLink>https://ya.ru</externalLink>
         </place>
-        
+
         <place>
             <id>3</id>
             <caption>Памятник «Достоевскому»</caption>
@@ -52,21 +84,40 @@
             <year>2001</year>
             <address></address>
             <pictures>
-                <url>https://admomsk.ru/image/image_gallery?img_id=356303</url>
-                <url>https://admomsk.ru/image/image_gallery?img_id=356337</url>
-                <url>https://admomsk.ru/image/image_gallery?img_id=356369</url>
+                <picture>
+                    <url>https://admomsk.ru/image/image_gallery?img_id=356303</url>
+                    <author>PetrovPP</author>
+                </picture>
+                <picture>
+                    <url>https://admomsk.ru/image/image_gallery?img_id=356337</url>
+                    <author>PetrovPP</author>
+                </picture>
+                <picture>
+                    <url>https://admomsk.ru/image/image_gallery?img_id=356369</url>
+                    <author>PetrovPP</author>
+                </picture>
             </pictures>
             <facts>
-                <fact>Проект памятника победил в конкурсе, который был организован Омским отделением Фонда культуры в конце 1980-х. Тогда предполагалось, что скульптурная композиция будет установлена по другую сторону от Тарских ворот и писатель будет «идти» в противоположном направлении — от Омской крепости.</fact>
-                <fact>Скульптура устанавливалась дважды – первая была выполнена в бетоне; открытие памятника было приурочено к 180-летию писателя. В 2007 году скульптуру отлили в бронзе и заменили на постаменте.</fact>
-                <fact>Портретного сходства скульптор сумел достичь, используя в качестве «модели» посмертную маску писателя.</fact>
+                <fact>Проект памятника победил в конкурсе, который был организован Омским отделением Фонда культуры в
+                    конце 1980-х. Тогда предполагалось, что скульптурная композиция будет установлена по другую сторону
+                    от Тарских ворот и писатель будет «идти» в противоположном направлении — от Омской крепости.
+                </fact>
+                <fact>Скульптура устанавливалась дважды – первая была выполнена в бетоне; открытие памятника было
+                    приурочено к 180-летию писателя. В 2007 году скульптуру отлили в бронзе и заменили на постаменте.
+                </fact>
+                <fact>Портретного сходства скульптор сумел достичь, используя в качестве «модели» посмертную маску
+                    писателя.
+                </fact>
             </facts>
             <location>
                 <lat>54.9620</lat>
                 <lon>73.4007</lon>
             </location>
-        </place>        
-   
+            <telegramLink>https://ya.ru</telegramLink>
+            <vkLink>https://ya.ru</vkLink>
+            <externalLink>https://ya.ru</externalLink>
+        </place>
+
         <place>
             <id>4</id>
             <caption>Тарские ворота</caption>
@@ -74,19 +125,29 @@
             <description></description>
             <year>Построены в 1792, разрушены в 1959, восстановлены в 1991</year>
             <pictures>
-                <url>https://admomsk.ru/image/image_gallery?img_id=356287</url>
+                <picture>
+                    <url>https://admomsk.ru/image/image_gallery?img_id=356287</url>
+                    <author>PetrovPP</author>
+                </picture>
             </pictures>
             <facts>
-                <fact>23 января 1850 года через эти ворота в Омский острог на тюремной повозке въехал ссыльнокаторжный Фёдор Достоевский.</fact>
+                <fact>23 января 1850 года через эти ворота в Омский острог на тюремной повозке въехал ссыльнокаторжный
+                    Фёдор Достоевский.
+                </fact>
                 <fact>Внутри воротной арки, в верхней её части устроено караульное помещение.</fact>
-                <fact>Ворота восстановлены на собственном фундаменте, оставшемся нетронутым в ходе сноса исторических ворот в конце 1950-х.</fact>
+                <fact>Ворота восстановлены на собственном фундаменте, оставшемся нетронутым в ходе сноса исторических
+                    ворот в конце 1950-х.
+                </fact>
             </facts>
             <location>
                 <lat>54.9717</lat>
                 <lon>73.4183</lon>
             </location>
-        </place>      
-        
+            <telegramLink>https://ya.ru</telegramLink>
+            <vkLink>https://ya.ru</vkLink>
+            <externalLink>https://ya.ru</externalLink>
+        </place>
+
         <place>
             <id>5</id>
             <address></address>
@@ -94,20 +155,36 @@
             <description>Дом комендантов Омской крепости</description>
             <year>1799</year>
             <pictures>
-                <url>https://admomsk.ru/image/image_gallery?img_id=356303</url>
-                <url>https://admomsk.ru/image/image_gallery?img_id=356299</url>
-                <url>https://admomsk.ru/image/image_gallery?img_id=356295</url>
+                <picture>
+                    <url>https://admomsk.ru/image/image_gallery?img_id=356303</url>
+                    <author>PetrovPP</author>
+                </picture>
+                <picture>
+                    <url>https://admomsk.ru/image/image_gallery?img_id=356299</url>
+                    <author>PetrovPP</author>
+                </picture>
+                <picture>
+                    <url>https://admomsk.ru/image/image_gallery?img_id=356295</url>
+                    <author>PetrovPP</author>
+                </picture>
             </pictures>
             <facts>
-                <fact>Достоевский реально бывал в этом здании – после того, как отбыл каторгу. Писатель был гостем последнего из комендантов Омской крепости де Граве.</fact>
-                <fact>В здании расположен единственный в Западной Сибири музей региональной литературы и единственный в мире музей имени Достоевского.</fact>
+                <fact>Достоевский реально бывал в этом здании – после того, как отбыл каторгу. Писатель был гостем
+                    последнего из комендантов Омской крепости де Граве.
+                </fact>
+                <fact>В здании расположен единственный в Западной Сибири музей региональной литературы и единственный в
+                    мире музей имени Достоевского.
+                </fact>
                 <fact>В собрании музея имеется фонд музыканта Егора Летова.</fact>
             </facts>
             <location>
                 <lat>54.9793</lat>
                 <lon>73.3633</lon>
             </location>
-        </place>           
-        
-    </places>    
+            <telegramLink>https://ya.ru</telegramLink>
+            <vkLink>https://ya.ru</vkLink>
+            <externalLink>https://ya.ru</externalLink>
+        </place>
+
+    </places>
 </config>
