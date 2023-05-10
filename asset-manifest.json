@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/omskkiosk/static/css/main.e6c13ad2.css",
-    "main.js": "/omskkiosk/static/js/main.e31396e1.js",
+    "main.js": "/omskkiosk/static/js/main.94238570.js",
     "static/js/787.e13e3f9f.chunk.js": "/omskkiosk/static/js/787.e13e3f9f.chunk.js",
-    "static/media/vk.svg": "/omskkiosk/static/media/vk.29eef910081ba1a521f01364868b0ab2.svg",
+    "static/media/background.svg": "/omskkiosk/static/media/background.ab5b2d5a1afe7c542d9547cc937fee88.svg",
+    "static/media/vk.svg": "/omskkiosk/static/media/vk.d325f50502bd9eb27f21eaf0713c6480.svg",
+    "static/media/ok.svg": "/omskkiosk/static/media/ok.9001081225ec66b2fa91f354a968cd4d.svg",
     "index.html": "/omskkiosk/index.html",
     "static/media/telegramm.svg": "/omskkiosk/static/media/telegramm.cdfe45e5398df24eeb4534e146719271.svg",
     "main.e6c13ad2.css.map": "/omskkiosk/static/css/main.e6c13ad2.css.map",
-    "main.e31396e1.js.map": "/omskkiosk/static/js/main.e31396e1.js.map",
+    "main.94238570.js.map": "/omskkiosk/static/js/main.94238570.js.map",
     "787.e13e3f9f.chunk.js.map": "/omskkiosk/static/js/787.e13e3f9f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.e31396e1.js"
+    "static/js/main.94238570.js"
   ]
 }

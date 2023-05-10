@@ -50,11 +50,24 @@
         </xs:sequence>
     </xs:complexType>
 
+    <xs:complexType name="About">
+        <xs:sequence>
+            <xs:element name="p" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
     <xs:complexType name="Author">
         <xs:sequence>
             <xs:element name="name" minOccurs="1" maxOccurs="1" type="xs:string"/>
             <xs:element name="alias" minOccurs="1" maxOccurs="unbounded" type="xs:string"/>
             <xs:element name="url" minOccurs="0" maxOccurs="unbounded" type="Url"/>
+            <xs:element name="about" type="About" minOccurs="0"/>
+            <xs:element name="photoUrl" type="Url" minOccurs="0"/>
+            <xs:element name="details" type="xs:string" minOccurs="0"/>
+            <xs:element name="email" type="xs:string"  minOccurs="0"/>
+            <xs:element name="vkLink" type="Url" minOccurs="0"/>
+            <xs:element name="telegramLink" type="Url" minOccurs="0"/>
+            <xs:element name="okLink" type="Url" minOccurs="0"/>
         </xs:sequence>
     </xs:complexType>
 
@@ -88,6 +101,7 @@
             <xs:element name="description" type="xs:string"/>
             <xs:element name="externalLink" type="Url" minOccurs="1" nillable="true"/>
             <xs:element name="vkLink" type="Url" minOccurs="1" nillable="true"/>
+            <xs:element name="okLink" type="Url" minOccurs="1" nillable="true"/>
             <xs:element name="telegramLink" type="Url" minOccurs="1" nillable="true"/>
         </xs:all>
     </xs:complexType>
