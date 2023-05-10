@@ -7,11 +7,36 @@
             <description>Все объекты Омской крепости: ворота, здания, памятники.</description>
             <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=356299</mainPictureUrl>
             <places>
-                <placeId>1</placeId>
-                <placeId>2</placeId>
-                <placeId>3</placeId>
-                <placeId>4</placeId>
-                <placeId>5</placeId>
+                <placeId>om</placeId>
+                <placeId>cannon</placeId>
+                <placeId>globe</placeId>
+                <placeId>river-station</placeId>
+                <placeId>irtysh</placeId>
+                <placeId>val-street</placeId>
+                <placeId>culture</placeId>
+                <placeId>valikhanov</placeId>
+                <placeId>shakenov</placeId>
+                <placeId>belov</placeId>
+                <placeId>kozmina</placeId>
+                <placeId>military</placeId>
+                <placeId>literature</placeId>
+                <placeId>tobol-gate</placeId>
+                <placeId>dostoevsky</placeId>
+                <placeId>tara-gate</placeId>
+                <placeId>balance</placeId>
+                <placeId>dzerzhinsky</placeId>
+                <placeId>fountain-58</placeId>
+                <placeId>dragons</placeId>
+                <placeId>batyushkin</placeId>
+                <placeId>kolchak</placeId>
+                <placeId>justice</placeId>
+                <placeId>petr-fevronia</placeId>
+                <placeId>nikolsky</placeId>
+                <placeId>kadet</placeId>
+                <placeId>apple</placeId>
+                <placeId>roerich</placeId>
+                <placeId>evolution-park</placeId>
+                <placeId>hungary</placeId>
             </places>
         </topic>
         <topic>
