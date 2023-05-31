@@ -81,6 +81,7 @@
                 </xs:key>
             </xs:element>
         </xs:sequence>
+        <xs:attribute name="main" type="xs:boolean" default="false" />
     </xs:complexType>
 
     <xs:complexType name="PictureArray">
