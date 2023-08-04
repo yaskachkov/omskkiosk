@@ -95,7 +95,7 @@
             <xs:element name="id" type="Identifier" minOccurs="1"/>
             <xs:element name="caption" type="xs:string" minOccurs="1"/>
             <xs:element name="pictures" type="PictureArray" minOccurs="1"/>
-            <xs:element name="year" type="xs:string"/>
+            <xs:element name="year" type="xs:string" minOccurs="0"/>
             <xs:element name="facts" type="FactArray" minOccurs="1"/>
             <xs:element name="location" type="Coordinate" maxOccurs="1"/>
             <xs:element name="address" type="xs:string" minOccurs="1"/>
@@ -119,16 +119,29 @@
         </xs:sequence>
     </xs:complexType>
 
+    <xs:complexType name="Rtept">
+        <xs:attribute name="lat" type="xs:double"  />
+        <xs:attribute name="lon" type="xs:double"  />
+    </xs:complexType>
+
+    <xs:complexType name="Rte">
+        <xs:sequence>
+            <xs:element name="rtept" minOccurs="1" maxOccurs="unbounded" type="Rtept"/>
+        </xs:sequence>
+    </xs:complexType>
+
     <xs:complexType name="Excursion">
         <xs:all>
             <xs:element name="id" type="Identifier" minOccurs="1"/>
             <xs:element name="caption" type="xs:string" minOccurs="1"/>
             <xs:element name="mainPictureUrl" type="Url" maxOccurs="1"/>
             <xs:element name="description" type="xs:string"/>
-            <xs:element name="route" type="LocationArray"/>
             <xs:element name="places" type="PlaceArray"/>
             <xs:element name="mapCenter" type="Location" minOccurs="1"/>
             <xs:element name="zoom" type="xs:unsignedInt" minOccurs="1"/>
+            <xs:element name="distance" type="xs:string" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="routeType" type="xs:string" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="rte" type="Rte" maxOccurs="1"/>
         </xs:all>
     </xs:complexType>
 
@@ -138,8 +151,17 @@
         </xs:sequence>
     </xs:complexType>
 
+
+    <xs:complexType name="Color">
+        <xs:attribute name="red" type="xs:unsignedByte"/>
+        <xs:attribute name="green" type="xs:unsignedByte"/>
+        <xs:attribute name="blue" type="xs:unsignedByte"/>
+        <xs:attribute name="opacity" type="xs:unsignedByte"/>
+    </xs:complexType>
+
     <xs:complexType name="Topic">
         <xs:all>
+            <xs:element name="color" type="Color" minOccurs="0" maxOccurs="1"/>
             <xs:element name="id" type="Identifier" minOccurs="1"/>
             <xs:element name="caption" type="xs:string" minOccurs="1"/>
             <xs:element name="description" type="xs:string"/>

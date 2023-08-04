@@ -2,51 +2,530 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd">
     <topics>
         <topic>
-            <id>1</id>
-            <caption>Омская крепость</caption>
-            <description>Все объекты Омской крепости: ворота, здания, памятники.</description>
-            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=356299</mainPictureUrl>
+            <id>top</id>
+            <caption>Топ-50</caption>
+            <color red="255" green="100" blue="100" opacity="150"/>
+            <description>Лучшие и открыточные виды. Не видел их — не был в Омске!</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=619568</mainPictureUrl>
             <places>
-                <placeId>om</placeId>
-                <placeId>cannon</placeId>
                 <placeId>globe</placeId>
-                <placeId>river-station</placeId>
                 <placeId>irtysh</placeId>
                 <placeId>val-street</placeId>
-                <placeId>culture</placeId>
+                <placeId>belov</placeId>
+                <placeId>literature</placeId>
+                <placeId>tobol-gate</placeId>
+                <placeId>tara-gate</placeId>
+                <placeId>dzerzhinsky</placeId>
+                <placeId>fountain-58</placeId>
+                <placeId>batyushkin</placeId>
+                <placeId>nikolsky</placeId>
+                <placeId>kadet</placeId>
+                <placeId>general</placeId>
+                <placeId>revolution</placeId>
+                <placeId>music</placeId>
+                <placeId>gorsovet</placeId>
+                <placeId>liberov</placeId>
+                <placeId>seraph</placeId>
+                <placeId>mos-trade</placeId>
+                <placeId>lyubochka</placeId>
+                <placeId>stepanych</placeId>
+                <placeId>omgmu</placeId>
+                <placeId>salamandra</placeId>
+                <placeId>hermitage</placeId>
+                <placeId>drama</placeId>
+                <placeId>vrubel</placeId>
+                <placeId>fire-tower</placeId>
+                <placeId>parliament</placeId>
+                <placeId>admomsk</placeId>
+                <placeId>dorm-cathedral</placeId>
+                <placeId>cross-cathedral</placeId>
+                <placeId>omgups</placeId>
+                <placeId>library</placeId>
+                <placeId>omgau-college</placeId>
+                <placeId>old-fortress</placeId>
+                <placeId>fortress</placeId>
+                <placeId>victory-park</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>nature</id>
+            <caption>Природа</caption>
+            <description>Город-сад и все такое. И зоопарки пока здесь тоже, да.</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=1133062</mainPictureUrl>
+            <places>
+                <placeId>om</placeId>
+                <placeId>dzerzhinsky</placeId>
+                <placeId>gorsad</placeId>
+                <placeId>apple</placeId>
+                <placeId>kalina</placeId>
+                <placeId>lime-tree</placeId>
+                <placeId>apricot-sib</placeId>
+                <placeId>apricot-man</placeId>
+                <placeId>kadet-200</placeId>
+                <placeId>vrubel-park</placeId>
+                <placeId>voskres-park</placeId>
+                <placeId>aqua</placeId>
+                <placeId>zoo</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>monuments</id>
+            <caption>Памятники</caption>
+            <description>Попытки увековечить что-то в бронзе. Как правило.</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=1238761</mainPictureUrl>
+            <places>
+                <placeId>cannon</placeId>
+                <placeId>globe</placeId>
                 <placeId>valikhanov</placeId>
                 <placeId>shakenov</placeId>
+                <placeId>dostoevsky</placeId>
+                <placeId>petr-fevronia</placeId>
+                <placeId>revolution</placeId>
+                <placeId>revolution-park</placeId>
+                <placeId>hungary</placeId>
+                <placeId>lenin</placeId>
+                <placeId>peter</placeId>
+                <placeId>larionova</placeId>
+                <placeId>cross</placeId>
+                <placeId>excesses-91</placeId>
+                <placeId>war-workers</placeId>
+                <placeId>ufa</placeId>
+                <placeId>22-dec</placeId>
+                <placeId>siege</placeId>
+                <placeId>aero</placeId>
+                <placeId>chaikina</placeId>
+                <placeId>cult-umvd</placeId>
+                <placeId>victory-park</placeId>
+                <placeId>chernobyl</placeId>
+                <placeId>doctors</placeId>
+                <placeId>labour</placeId>
+                <placeId>bogdan</placeId>
+                <placeId>warriors</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>urban-sculpture</id>
+            <caption>Городская скульптура</caption>
+            <description>Арт-объекты, с которыми все охотно фотографируются!</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=625300</mainPictureUrl>
+            <places>
+                <placeId>balance</placeId>
+                <placeId>justice</placeId>
+                <placeId>don-quixote</placeId>
+                <placeId>policeman</placeId>
+                <placeId>lyubochka</placeId>
+                <placeId>merchant</placeId>
+                <placeId>stepanych</placeId>
+                <placeId>eagle</placeId>
+                <placeId>penguins</placeId>
+                <placeId>deers</placeId>
+                <placeId>dating</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>museums</id>
+            <caption>Музеи</caption>
+            <description>Чем богаты, тем и рады! Налетай, рассматривай!</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=1082216</mainPictureUrl>
+            <places>
+                <placeId>belov</placeId>
+                <placeId>literature</placeId>
+                <placeId>batyushkin</placeId>
+                <placeId>general</placeId>
+                <placeId>liberov</placeId>
+                <placeId>hermitage</placeId>
+                <placeId>ompros</placeId>
+                <placeId>protestant</placeId>
+                <placeId>bas-relief</placeId>
+                <placeId>vrubel</placeId>
+                <placeId>military-glory</placeId>
+                <placeId>artists</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>theaters</id>
+            <caption>Театры</caption>
+            <description>Кафедры, с которых можно сказать миру много добра. Если мир услышит, конечно.</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=1202389</mainPictureUrl>
+            <places>
+                <placeId>tuz</placeId>
+                <placeId>concert-hall</placeId>
+                <placeId>music</placeId>
+                <placeId>organ-hall</placeId>
+                <placeId>drama</placeId>
+                <placeId>genius</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>wooden-houses</id>
+            <caption>Деревянное зодчество</caption>
+            <description>Я иду по полю с бревном… Я хочу построить свой дом!</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=1129887</mainPictureUrl>
+            <places>
                 <placeId>belov</placeId>
                 <placeId>kozmina</placeId>
+                <placeId>dragons</placeId>
+                <placeId>liberov</placeId>
+                <placeId>hospital</placeId>
+                <placeId>all-saints</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>modern</id>
+            <caption>Модерн</caption>
+            <description>Не знаю, будем ли мы выделять архитектурные стили. Пока так.</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=576795</mainPictureUrl>
+            <places>
+                <placeId>culture</placeId>
+                <placeId>kozmina</placeId>
+                <placeId>pechokas</placeId>
+                <placeId>kz</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>fortress</id>
+            <caption>Омская крепость</caption>
+            <description>Крепость — сила, крепость — мощь! Кто к нам с мечом придет, в общем.</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=282358</mainPictureUrl>
+            <places>
+                <placeId>fortress</placeId>
                 <placeId>military</placeId>
                 <placeId>literature</placeId>
                 <placeId>tobol-gate</placeId>
-                <placeId>dostoevsky</placeId>
                 <placeId>tara-gate</placeId>
-                <placeId>balance</placeId>
-                <placeId>dzerzhinsky</placeId>
+                <placeId>protestant</placeId>
+                <placeId>om-gate</placeId>
+                <placeId>irt-gate</placeId>
+                <placeId>veteran</placeId>
+                <placeId>peter</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>fountains</id>
+            <caption>Фонтаны</caption>
+            <description>Самая мокрая рубрика из имеющихся. Полгода не работает, кстати!</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=1067544</mainPictureUrl>
+            <places>
                 <placeId>fountain-58</placeId>
+                <placeId>fountain-57</placeId>
+                <placeId>fountain-56</placeId>
+                <placeId>val-street</placeId>
+                <placeId>mus-fountain</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>eclectic</id>
+            <caption>Эклектика</caption>
+            <description>Не знаешь, в каком стиле строить — эклектика все спишет.</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=1067456</mainPictureUrl>
+            <places>
+                <placeId>batyushkin</placeId>
+                <placeId>kolchak</placeId>
+                <placeId>kulikov</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>religion</id>
+            <caption>Религии</caption>
+            <description>Пока тут в основном православие, но мы еще не закончили. Будут все.</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=732881</mainPictureUrl>
+            <places>
+                <placeId>nikolsky</placeId>
+                <placeId>seraph</placeId>
+                <placeId>iver</placeId>
+                <placeId>protestant</placeId>
+                <placeId>excesses-94</placeId>
+                <placeId>dorm-cathedral</placeId>
+                <placeId>eparchy</placeId>
+                <placeId>cross-cathedral</placeId>
+                <placeId>st-nicholas</placeId>
+                <placeId>greeter</placeId>
+                <placeId>nativity</placeId>
+                <placeId>dm-don</placeId>
+                <placeId>all-saints</placeId>
+                <placeId>znamenie</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>state</id>
+            <caption>Госсектор, органы власти</caption>
+            <description>Попробуем выделить официальные инстанции? Стоит?</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=1202229</mainPictureUrl>
+            <places>
+                <placeId>gorsovet</placeId>
+                <placeId>admomsk</placeId>
+                <placeId>parliament</placeId>
+                <placeId>bank</placeId>
+                <placeId>so-ran</placeId>
+                <placeId>library</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>edu</id>
+            <caption>Образование</caption>
+            <description>Вузы, школы искусств… Все, где могут научить уму-разуму.</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=759163</mainPictureUrl>
+            <places>
+                <placeId>kaesh</placeId>
+                <placeId>omgups</placeId>
+                <placeId>omgmu</placeId>
+                <placeId>kadet</placeId>
+                <placeId>gymnasium</placeId>
+                <placeId>aviacollege</placeId>
+                <placeId>shebalin</placeId>
+                <placeId>omgpu</placeId>
+                <placeId>dshi-4</placeId>
+                <placeId>fin</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>tech</id>
+            <caption>Транспорт, техника</caption>
+            <description>В основном транспорт, но и промышленные объекты сюда просятся. Посмотрим, как подружатся.
+            </description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=612559</mainPictureUrl>
+            <places>
+                <placeId>railroad</placeId>
+                <placeId>steam-engine</placeId>
+                <placeId>rail-bridge</placeId>
+                <placeId>steam-engine-south</placeId>
+                <placeId>yak-9</placeId>
+                <placeId>gaz-mm</placeId>
+                <placeId>rocket</placeId>
+                <placeId>gibdd</placeId>
+                <placeId>tez-1</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>urban-art</id>
+            <caption>Муралы</caption>
+            <description>Явно же мы наберем несколько объектов?</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=576481</mainPictureUrl>
+            <places>
+                <placeId>manas</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>old-fortress-period</id>
+            <caption>1710…1760-е</caption>
+            <description>Первая омская крепость. Истеснение хана Кучума.</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=282382</mainPictureUrl>
+            <places>
+                <placeId>om</placeId>
+                <placeId>cannon</placeId>
+                <placeId>old-fortress</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>new-fortress-period</id>
+            <caption>1770…1880-е</caption>
+            <description>Вторая омская крепость. Столица Степного края.</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=1052238</mainPictureUrl>
+            <places>
+                <placeId>military</placeId>
+                <placeId>literature</placeId>
+                <placeId>tobol-gate</placeId>
+                <placeId>tara-gate</placeId>
+                <placeId>nikolsky</placeId>
+                <placeId>kadet</placeId>
+                <placeId>general</placeId>
+                <placeId>apple</placeId>
+                <placeId>iver</placeId>
+                <placeId>protestant</placeId>
+                <placeId>dungeon</placeId>
+                <placeId>prosecutor</placeId>
+                <placeId>cross-cathedral</placeId>
+                <placeId>hospital</placeId>
+                <placeId>gymnasium</placeId>
+                <placeId>so-ran</placeId>
+                <placeId>om-gate</placeId>
+                <placeId>irt-gate</placeId>
+                <placeId>omui</placeId>
+                <placeId>lenina-20</placeId>
+                <placeId>voskres-park</placeId>
+                <placeId>veteran</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>transsib-period</id>
+            <caption>1890…1910-е</caption>
+            <description>Транссиб. Бурное развитие. Революция. Белая столица.</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=619878</mainPictureUrl>
+            <places>
+                <placeId>culture</placeId>
+                <placeId>belov</placeId>
+                <placeId>kozmina</placeId>
                 <placeId>dragons</placeId>
                 <placeId>batyushkin</placeId>
+                <placeId>gorsovet</placeId>
+                <placeId>liberov</placeId>
+                <placeId>seraph</placeId>
+                <placeId>russia</placeId>
+                <placeId>organ-hall</placeId>
+                <placeId>mos-trade</placeId>
+                <placeId>striking-clock</placeId>
+                <placeId>lyubinsky</placeId>
+                <placeId>omgmu</placeId>
+                <placeId>triangle</placeId>
+                <placeId>tver</placeId>
+                <placeId>salamandra</placeId>
+                <placeId>hermitage</placeId>
+                <placeId>ompros</placeId>
+                <placeId>drama</placeId>
+                <placeId>vrubel</placeId>
+                <placeId>admomsk</placeId>
+                <placeId>fire-tower</placeId>
+                <placeId>vtb</placeId>
+                <placeId>parliament</placeId>
+                <placeId>bank</placeId>
+                <placeId>dorm-cathedral</placeId>
+                <placeId>eparchy</placeId>
+                <placeId>pechokas</placeId>
+                <placeId>rail-bridge</placeId>
+                <placeId>omgups</placeId>
+                <placeId>kz</placeId>
+                <placeId>st-nicholas</placeId>
+                <placeId>greeter</placeId>
+                <placeId>military-glory</placeId>
+                <placeId>omgau-college</placeId>
+                <placeId>domzhur</placeId>
+                <placeId>kaesh</placeId>
+                <placeId>shebalin</placeId>
+                <placeId>dshi-4</placeId>
+                <placeId>tez-1</placeId>
+                <placeId>kulikov</placeId>
+                <placeId>znamenie</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>young-ussr-period</id>
+            <caption>1920…1940-е</caption>
+            <description>Советская власть. Конструктивизм.</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=477039</mainPictureUrl>
+            <places>
+                <placeId>dzerzhinsky</placeId>
+                <placeId>gorsad</placeId>
+                <placeId>revolution</placeId>
+                <placeId>ships</placeId>
+                <placeId>fsb</placeId>
+                <placeId>22-dec</placeId>
+                <placeId>penguins</placeId>
+                <placeId>aviacollege</placeId>
+                <placeId>bogdan</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>late-ussr-period</id>
+            <caption>1950…1980-е</caption>
+            <description>Поздний СССР.</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=390620</mainPictureUrl>
+            <places>
+                <placeId>river-station</placeId>
+                <placeId>irtysh</placeId>
+                <placeId>fountain-58</placeId>
+                <placeId>tuz</placeId>
+                <placeId>concert-hall</placeId>
+                <placeId>revolution-park</placeId>
+                <placeId>lime-tree</placeId>
+                <placeId>hungary</placeId>
+                <placeId>music</placeId>
+                <placeId>lenin</placeId>
+                <placeId>bas-relief</placeId>
+                <placeId>fountain-57</placeId>
+                <placeId>om-trade</placeId>
+                <placeId>diptych</placeId>
+                <placeId>joy</placeId>
+                <placeId>fountain-56</placeId>
+                <placeId>genius</placeId>
+                <placeId>apricot-sib</placeId>
+                <placeId>apricot-man</placeId>
+                <placeId>deers</placeId>
+                <placeId>yak-9</placeId>
+                <placeId>gaz-mm</placeId>
+                <placeId>artists</placeId>
+                <placeId>omgpu</placeId>
+                <placeId>fin</placeId>
+                <placeId>cult-umvd</placeId>
+                <placeId>zoo</placeId>
+                <placeId>tgk-11</placeId>
+                <placeId>victory-park</placeId>
+            </places>
+        </topic>
+
+        <topic>
+            <id>new-russia-period</id>
+            <caption>1990…2020-е</caption>
+            <description>Новая Россия.</description>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=881993</mainPictureUrl>
+            <places>
+                <placeId>cannon</placeId>
+                <placeId>globe</placeId>
+                <placeId>val-street</placeId>
+                <placeId>valikhanov</placeId>
+                <placeId>shakenov</placeId>
+                <placeId>dostoevsky</placeId>
+                <placeId>balance</placeId>
                 <placeId>kolchak</placeId>
                 <placeId>justice</placeId>
                 <placeId>petr-fevronia</placeId>
-                <placeId>nikolsky</placeId>
-                <placeId>kadet</placeId>
-                <placeId>apple</placeId>
                 <placeId>roerich</placeId>
-                <placeId>evolution-park</placeId>
-                <placeId>hungary</placeId>
-            </places>
-        </topic>
-        <topic>
-            <id>2</id>
-            <caption>Места для фотосессий</caption>
-            <description>Самые красивые места нашего города!</description>
-            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=356200</mainPictureUrl>
-            <places>
-                <placeId>2</placeId>
-                <placeId>4</placeId>
+                <placeId>kalina</placeId>
+                <placeId>don-quixote</placeId>
+                <placeId>policeman</placeId>
+                <placeId>lyubochka</placeId>
+                <placeId>merchant</placeId>
+                <placeId>stepanych</placeId>
+                <placeId>peter</placeId>
+                <placeId>larionova</placeId>
+                <placeId>eagle</placeId>
+                <placeId>cross</placeId>
+                <placeId>excesses-91</placeId>
+                <placeId>excesses-94</placeId>
+                <placeId>war-workers</placeId>
+                <placeId>railroad</placeId>
+                <placeId>steam-engine</placeId>
+                <placeId>ufa</placeId>
+                <placeId>siege</placeId>
+                <placeId>manas</placeId>
+                <placeId>library</placeId>
+                <placeId>nativity</placeId>
+                <placeId>steam-engine-south</placeId>
+                <placeId>aero</placeId>
+                <placeId>kadet-200</placeId>
+                <placeId>dating</placeId>
+                <placeId>mus-fountain</placeId>
+                <placeId>vrubel-park</placeId>
+                <placeId>rocket</placeId>
+                <placeId>fortress</placeId>
+                <placeId>chaikina</placeId>
+                <placeId>gibdd</placeId>
+                <placeId>aqua</placeId>
+                <placeId>chernobyl</placeId>
+                <placeId>doctors</placeId>
+                <placeId>dm-don</placeId>
+                <placeId>all-saints</placeId>
+                <placeId>labour</placeId>
+                <placeId>warriors</placeId>
             </places>
         </topic>
     </topics>

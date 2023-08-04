@@ -2,103 +2,98 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd">
     <excursions>
         <excursion>
-            <id>1</id>
-            <caption>Обзорная экскурсия</caption>
-            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=356200</mainPictureUrl>
-            <description>Нашу виртуальную экскурсию мы начнём у места, где в 1716 году высадился казачий отряд под
-                командованием подполковника Ивана Бухгольца. Здесь, на левом берегу Оми, была построена первая Омская
-                крепость. Как нетрудно догадаться, название ей было дано по имени реки: Омь на языке сибирских татар —
-                «тихая, тишайшая».
-            </description>
-            <route>
-                <point>
-                    <lat>54.97439148054726</lat>
-                    <lon>73.37668241606863</lon>
-                </point>
-                <point>
-                    <lat>54.9745210798639</lat>
-                    <lon>73.3784794961087</lon>
-                </point>
-                <point>
-                    <lat>54.98057475063292</lat>
-                    <lon>73.37741197692068</lon>
-                </point>
-                <point>
-                    <lat>54.98067347772752</lat>
-                    <lon>73.37963284598499</lon>
-                </point>
-                <point>
-                    <lat>54.9807413524636</lat>
-                    <lon>73.38030876265677</lon>
-                </point>
-                <point>
-                    <lat>54.98153115910055</lat>
-                    <lon>73.38011564360767</lon>
-                </point>
-                <point>
-                    <lat>54.9816113729641</lat>
-                    <lon>73.38029803382072</lon>
-                </point>
-                <point>
-                    <lat>54.98162371354422</lat>
-                    <lon>73.3806091700664</lon>
-                </point>
-                <point>
-                    <lat>54.98164839469299</lat>
-                    <lon>73.3807808314434</lon>
-                </point>
-                <point>
-                    <lat>54.98183967307928</lat>
-                    <lon>73.38083447562366</lon>
-                </point>
-                <point>
-                    <lat>54.98185201358889</lat>
-                    <lon>73.3813601885906</lon>
-                </point>
-                <point>
-                    <lat>54.98231477994907</lat>
-                    <lon>73.38129581557423</lon>
-                </point>
-            </route>
+            <id>route-1</id>
+            <caption>Омск изначальный</caption>
+            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=356098</mainPictureUrl>
+            <description>Прогулка начинается на стрелке Оми и Иртыша, где три века назад высадился отряд основателя первой Омской крепости. Отсюда город стал расти и шириться, наполняться жизнью. Маршрут знакомит одновременно с историей и современностью: старый Омск здесь проступает сквозь наслоения времени и приметы наших дней.</description>
+            <distance>3 км</distance>
+            <routeType>Пешеходная экскурсия</routeType>
             <places>
-                <placeId>1</placeId>
-                <placeId>2</placeId>
-                <placeId>3</placeId>
-                <placeId>4</placeId>
-                <placeId>5</placeId>                
+                <placeId>om</placeId>
+                <placeId>cannon</placeId>
+                <placeId>river-station</placeId>
+                <placeId>vrubel-park</placeId>
+                <placeId>globe</placeId>
+                <placeId>kolchak</placeId>
+                <placeId>batyushkin</placeId>
+                <placeId>kadet-200</placeId>
+                <placeId>val-street</placeId>
+                <placeId>culture</placeId>
+                <placeId>kz</placeId>
+                <placeId>valikhanov</placeId>
+                <placeId>manas</placeId>
+                <placeId>belov</placeId>
+                <placeId>kaesh</placeId>
+                <placeId>domzhur</placeId>
+                <placeId>shakenov</placeId>
+                <placeId>kozmina</placeId>
+                <placeId>kadet</placeId>
+                <placeId>concert-hall</placeId>
+                <placeId>nikolsky</placeId>
+                <placeId>so-ran</placeId>
+                <placeId>petr-fevronia</placeId>
+                <placeId>omui</placeId>
+                <placeId>justice</placeId>
+                <placeId>gorsad</placeId>
+                <placeId>aviacollege</placeId>
+                <placeId>tuz</placeId>
+                <placeId>don-quixote</placeId>
+                <placeId>ships</placeId>
+                <placeId>shebalin</placeId>
+                <placeId>general</placeId>
+                <placeId>apple</placeId>
+                <placeId>roerich</placeId>
+                <placeId>kalina</placeId>
+                <placeId>revolution-park</placeId>
+                <placeId>hungary</placeId>
+                <placeId>lime-tree</placeId>
+                <placeId>revolution</placeId>
+                <placeId>lenina-20</placeId>
+                <placeId>artists</placeId>
+                <placeId>dating</placeId>
+                <placeId>lenin</placeId>
+                <placeId>old-fortress</placeId>
+                <placeId>gorsovet</placeId>
+                <placeId>liberov</placeId>
+                <placeId>mus-fountain</placeId>
+                <placeId>music</placeId>
             </places>
             <mapCenter>
-                <lat>54.98231477994907</lat>
-                <lon>73.38129581557423</lon>
+                <lat>54.9780</lat>
+                <lon>73.3777</lon>
             </mapCenter>
             <zoom>14</zoom>
+            <rte>
+                <rtept lon="73.37073327647386" lat="54.98124732421591" />
+                <rtept lon="73.37297023879223" lat="54.98143243420343" />
+                <rtept lon="73.37331356154618" lat="54.981358390306035" />
+                <rtept lon="73.37338866339854" lat="54.98093572046742" />
+                <rtept lon="73.3729648743742" lat="54.9804513414955" />
+                <rtept lon="73.37315799342326" lat="54.97924499637989" />
+                <rtept lon="73.3737226197023" lat="54.97830188264738" />
+                <rtept lon="73.37415713756269" lat="54.97809516024922" />
+                <rtept lon="73.37466139285753" lat="54.97694736867718" />
+                <rtept lon="73.37481159656222" lat="54.97622843941621" />
+                <rtept lon="73.37496180026706" lat="54.9752595615261" />
+                <rtept lon="73.3752031990784" lat="54.974272145866266" />
+                <rtept lon="73.37860960452726" lat="54.9744912308005" />
+                <rtept lon="73.37820727317491" lat="54.976938112085996" />
+                <rtept lon="73.37839502780594" lat="54.97733305493011" />
+                <rtept lon="73.3806373545424" lat="54.9788202265516" />
+                <rtept lon="73.38026184528056" lat="54.980717678515845" />
+                <rtept lon="73.37844867198636" lat="54.98060352541165" />
+                <rtept lon="73.37838429897005" lat="54.98097683568711" />
+                <rtept lon="73.37812144248664" lat="54.98115886175227" />
+                <rtept lon="73.37742943256079" lat="54.98114343584714" />
+                <rtept lon="73.37732214420015" lat="54.98164323213972" />
+                <rtept lon="73.37767619579014" lat="54.982001107130564" />
+                <rtept lon="73.37755281417544" lat="54.982152277500255" />
+                <rtept lon="73.38070172755887" lat="54.98296056650459" />
+                <rtept lon="73.38084120242766" lat="54.98276312336983" />
+                <rtept lon="73.38148493259123" lat="54.98243302095035" />
+                <rtept lon="73.38220912902526" lat="54.98242993586292" />
+            </rte>
         </excursion>
-        <excursion>
-            <id>2</id>
-            <caption>Омск для влюбленных</caption>
-            <mainPictureUrl>https://admomsk.ru/image/image_gallery?img_id=356321</mainPictureUrl>
-            <description>За зданием концертного зала в Театральном сквере в 2010 году установлена скульптура в честь
-                русских святых Петра и Февронии Муромских. Это место паломничества влюблённых и молодожёнов.
-            </description>
-            <route>
-                <point>
-                    <lat>54.98185201358889</lat>
-                    <lon>73.3813601885906</lon>
-                </point>
-                <point>
-                    <lat>54.98231477994907</lat>
-                    <lon>73.38129581557423</lon>
-                </point>
-            </route>
-            <places>
-                <placeId>3</placeId>
-                <placeId>5</placeId>
-            </places>
-            <mapCenter>
-                <lat>54.98231477994907</lat>
-                <lon>73.38129581557423</lon>
-            </mapCenter>
-            <zoom>14</zoom>
-        </excursion>
+
     </excursions>
 </config>
