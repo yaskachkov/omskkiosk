@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/omskkiosk/static/css/main.3c15745d.css",
-    "main.js": "/omskkiosk/static/js/main.fd6aa54d.js",
-    "static/js/453.6c997f33.chunk.js": "/omskkiosk/static/js/453.6c997f33.chunk.js",
+    "main.js": "/omskkiosk/static/js/main.511ae2e6.js",
+    "static/js/453.7ed4370a.chunk.js": "/omskkiosk/static/js/453.7ed4370a.chunk.js",
     "static/media/Inter-VariableFont_opsz,wght.ttf": "/omskkiosk/static/media/Inter-VariableFont_opsz,wght.e05c5f3d1fa6a3893d84.ttf",
     "static/media/background-2.svg": "/omskkiosk/static/media/background-2.61e4ed627022a4a8a05a05e2a84938cc.svg",
     "static/media/background.svg": "/omskkiosk/static/media/background.f3003dc70e62c30f8481b6ee3c221611.svg",
@@ -12,11 +12,11 @@
     "index.html": "/omskkiosk/index.html",
     "static/media/telegramm.svg": "/omskkiosk/static/media/telegramm.cdfe45e5398df24eeb4534e146719271.svg",
     "main.3c15745d.css.map": "/omskkiosk/static/css/main.3c15745d.css.map",
-    "main.fd6aa54d.js.map": "/omskkiosk/static/js/main.fd6aa54d.js.map",
-    "453.6c997f33.chunk.js.map": "/omskkiosk/static/js/453.6c997f33.chunk.js.map"
+    "main.511ae2e6.js.map": "/omskkiosk/static/js/main.511ae2e6.js.map",
+    "453.7ed4370a.chunk.js.map": "/omskkiosk/static/js/453.7ed4370a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c15745d.css",
-    "static/js/main.fd6aa54d.js"
+    "static/js/main.511ae2e6.js"
   ]
 }
